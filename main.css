@@ -1,0 +1,619 @@
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+    background-image: url(anh/nen.png);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 210px;
+}
+/* CSS cho box login giới thiệu */
+.login{
+    background: gray;
+    width: 100%;
+    height: 30px;
+
+}
+.gioithieu{
+    text-align: center;
+    list-style: none;
+    margin-right: 20px; 
+    margin-bottom: 15px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-size: 13px;
+    position: fixed;  top: 0;  width: 100%; height: 30px;
+    background-color: gray;    
+}
+ul li{
+    display: inline;
+    margin-left: 30px;
+}
+ul li a{
+    color: #ffffff; 
+    list-style-type: none;
+    text-decoration: none;
+}
+.box1{
+    display: block;
+    width: 100%;
+    height: 110px;
+}
+.box1 .login ul li a:hover {
+    color: red ;
+    background: white;
+    padding: 8px;
+    transition: all 0.1s ease-in;
+}
+.box1>.menu{
+    display: flex;
+    background: rgb(179, 172, 172);
+    width: 1200px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner{
+    width: 1200px;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+}
+.tongtimkiem{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.tongtimkiem-1{
+    width: 52%;
+    float: left;
+    height: 100px;
+}
+.tongtimkiem-2{
+    width: 15%;
+    height: 100px;
+    float: left;    
+}
+
+.box1>.logo>.tongtimkiem>.anh{
+    padding-left: 82px;
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 17px;
+}
+input[type="text"] {
+    width: 650px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    outline:none;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px     ;
+    margin-left: 20px;
+    position: absolute;
+}
+.buttontimkiem{
+    position: absolute;
+    margin-left: 48%;
+    width: 44px;
+    background: transparent linear-gradient(180deg,red 0%,#2619db 100%) 0% 0% no-repeat;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buttontimkiem:active{
+    position: absolute;
+    margin-left: 48%;
+    width: 44px;
+    background: transparent linear-gradient(180deg,#0d9984 0%,#00483d 100%) 0% 0% no-repeat;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px #1acfb4;
+}
+.tongtimkiem-1 .timkiem-1 .fa-solid{
+    font-size: 20px;
+    padding: 7px 7px 7px 5px;
+    margin-left: 1px;
+    margin-top: 1px;
+    color: white;
+
+
+}
+.box1>.logo>.tongtimkiem-1>.timkiem-1{
+    padding-top: 30px;
+}
+.nutgiohang{
+    margin-top: 28px;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gray;
+    background: rgb(223, 37, 37);
+    border: 0px solid ;
+}
+.nutgiohang:hover{
+    background: rgb(18, 190, 124);
+    transition: all 0.2s ease-in;
+}
+.giaohang{
+    float: left;
+    filter: brightness(0) invert(1);
+}
+.kiemtra{
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: black;
+}
+.icon-1{
+    font-size: 40px;
+    color: white ;
+    padding-top:25px;
+    transition: all 0.1s ease-in;
+}
+.icon-1:hover{
+    color: #26d8bd;
+}
+.fa-solid{
+    font-size: 25px;
+    margin-right: 30px;
+}
+.fontdt{
+    font-size: 10px;
+}
+.mune-1{
+    padding-left: 45px;
+}
+.dt-1:hover {
+    color: #ffffff;
+    transition: all 0.1s ease-in;
+    font-size: 19px;
+}
+
+.tongmenu-2{
+    display: none;
+    background: #ffffff;
+    width: 1160px;
+    border-radius: 5px;
+    left: 75px;
+    top: 200px;
+    padding-top: 10px;
+    box-shadow: 4px 4px 15px rgb(134, 134, 134);
+    transition: all 0.1s ease-in;
+}
+nav li ul{
+    position: absolute;
+}
+
+nav  li:hover > ul{
+    display:  block;
+}
+
+.tensp{
+    color: black;
+    font-size: 13px;
+    float: left;    
+}
+.tensp11{
+    color: black;
+    font-size: 13px;
+    float: left;
+    padding-left: 10px;
+}
+.tensp-1{
+    color: rgb(59, 59, 59);
+    font-size: 13px;
+    float: left;
+    font-weight: 700;
+}
+.tensp:hover{
+    color: #5be7d2;
+    font-size: 13px;
+    float: left;
+    
+}
+
+
+.tongne{
+    float: left;
+    width: 300px;
+}
+.tongne-11{
+    width: 150px;
+    float: left;
+}
+nav li:hover .fontdt{
+    box-shadow: 0px 0px 5px #ff9028;
+    background: #ff9028;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    transition: all 0.1s ease-in;
+}
+.tongne-11{
+    float: left;
+}
+.anhnenn{
+    border-radius: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -22px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    user-select: none;
+    margin: 90px;
+}
+.next {
+    right: 0;
+    border-radius: 5px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity:0.2;
+    transition: 0.4s ease;
+}
+
+.dot {
+    margin: 20px;
+    padding: 5px;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgb(92, 92, 92);
+    display: inline-block;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+.active, .dot:hover {
+    background: transparent linear-gradient(90deg,#119e89 0%,#25dabe 100%) 0% 0% no-repeat;
+    padding: 13px 10px 13px 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.1s;
+    animation-name: fade;
+    animation-duration: 0.8s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+ @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} 
+.mySlides {
+   display: none;
+}
+.mySlides{
+    width: 1200px;
+    height: 340px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.bannergioithieu{
+    display: flex;
+    width: 1200px;
+    height: 170px;
+    text-align: center;
+    margin: 0 auto;
+}
+.anhgioithieu{
+    width: 25%;
+    margin: 3px;
+}
+.anhgioithieu1{
+    width: 25%;
+    margin: 3px;
+}
+.anhgioithieu2{
+    width: 25%;
+    margin: 3px;
+}
+.anhgioithieu3{
+    width: 25%;
+    margin: 3px;
+}
+.gioithieu-1{
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.thietbi{
+    width: 1190px;
+    height: 510px;
+    margin: 0 auto;
+}
+.tieude{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+.fa-solid-1{
+    font-size: 15px;
+    padding-left: 15px;
+}
+.tieudesp{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 80px;
+    margin-top: 19px;
+    width: 240px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent linear-gradient(90deg,#009981 0%,#00483d 100%) 0% 0% no-repeat;
+    font-weight: 700;
+}
+.sanpham{
+    margin-top: 20px;
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+.anhsp{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(172, 158, 158);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-image: url(https://scr.vn/wp-content/uploads/2020/07/N%E1%BB%81n-h%E1%BB%93ng-xanh-%C4%91%E1%BA%B9p-cho-%C4%91i%E1%BB%87n-tho%E1%BA%A1i.jpg);
+    background-size: 100% ;
+}
+.anhsp-1{
+    height: 260px;
+    width: 270px;
+    margin: 10px 0px 10px 0px;
+}
+.thongtinsp{
+    width: 100%;
+    height: 50px;
+}
+.tenthietbi{
+    font-weight: 700;
+    color: #505050;
+    font-size: 15px;
+}
+.giasp{
+    margin: 0px 0px 5px 0px;
+    font-weight: 640;
+    color: rgb(255, 47, 47);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.giasp>del{
+    color: rgb(88, 88, 88);
+    margin-left: 10px;
+    text-align: center;
+}
+.new-icon{
+    position: absolute;
+}
+.nutmuasp{
+    background: #00483d;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.nutmuasp:hover{
+    background: #008f79;
+    padding: 8px 5px 8px 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 0px 50px #008f79;
+}
+.muahang{
+    margin-bottom: 10px;
+}
+.tonggioithieuu{
+    background: #ffffff;
+    width: 238px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+    position: absolute;
+    border: 2px solid #008f79;
+    margin: 30px 5px 20px 5px;
+    top:870px;
+    opacity:0;
+    display: block;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+    padding: 8px;
+}
+.tonggioithieu-1{
+    display: block;
+    color: #000000;
+    font-size: 12px;
+}
+.thongtinsp-1  :hover{
+    opacity:1;
+}
+
+.maytinh{
+    width: 1190px;
+    height: 510px;
+    margin: 0 auto;
+}
+.gioithieulap{
+    background: #ffffff;
+    width: 238px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+    position: absolute;
+    border: 2px solid #008f79;
+    margin: 30px 5px 20px 5px;
+    top:1395px;
+    opacity:0;
+    display: block;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    padding: 8px;
+}
+.gioithieu-2
+{
+    background: #ffffff;
+    width: 238px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+    position: absolute;
+    border: 2px solid #008f79;
+    margin: 30px 5px 20px 5px;
+    top:1895px;
+    opacity:0;
+    display: block;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.gioithieu-3
+{
+    background: #ffffff;
+    width: 238px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+    position: absolute;
+    border: 2px solid #008f79;
+    margin: 30px 5px 20px 5px;
+    top:2395px;
+    opacity:0;
+    display: block;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+.thongtinlaptop  :hover{
+    opacity:1;
+}
+.sanpham{
+    margin-top: 20px;
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+
+.fb{
+    background: #f5f5f5 0% 0% no-repeat;
+    width: 55px;
+    height: 220px;
+    position: fixed;
+    top:33%;
+    left: 5px;
+    box-shadow: 5px 5px 5px #0000009f;
+    border-radius: 35px;
+}
+.luachon-fb{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 25%;
+    width: 100%;
+}
+.luachon-yt{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 25%;
+    width: 100%;
+}
+.luachon-in{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 25%;
+    width: 100%;
+}
+.luachon-tik{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 25%;
+    width: 100%;
+}
+
+.fb .luachon-fb a i{ 
+    color: #3b5998;
+    font-size: 40px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.fb .luachon-yt a i{ 
+    color: #ff0000;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.fb .luachon-in a i{ 
+    color: #d6249f;
+    font-size: 43px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+.fb .luachon-tik a i{ 
+    color: #000000;
+    font-size: 33px;
+    margin-top: 11px;
+    margin-left: 12px;
+}
+
+
+.fb .luachon-fb a i:hover{ 
+    color: #3b5998;
+    font-size: 50px;
+    padding-top: 3px;
+    padding-left: 3px;
+    transition: all 0.2s ease-in;
+}
+.fb .luachon-yt a i:hover{ 
+    color: #ff0000;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 2px;
+    transition: all 0.2s ease-in;
+}
+.fb .luachon-in a i:hover{ 
+    color: #d6249f;
+    font-size: 50px;
+    margin-top: 3px;
+    margin-left: 6px;
+    transition: all 0.2s ease-in;
+}
+
+.fb .luachon-tik a i:hover{ 
+    color: #000000;
+    font-size: 40px;
+    margin-top: 8px;
+    margin-left: 11px;
+    transition: all 0.2s ease-in;
+}
