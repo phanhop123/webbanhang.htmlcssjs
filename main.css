@@ -25,6 +25,7 @@ header{
     padding-right: 20px;
     font-size: 13px;
     position: fixed;  top: 0;  width: 100%; height: 30px;
+    
     background-color: gray;    
 }
 ul li{
@@ -616,4 +617,50 @@ nav li:hover .fontdt{
     margin-top: 8px;
     margin-left: 11px;
     transition: all 0.2s ease-in;
+}
+
+.trangcuoi{
+    float: left;
+    
+}
+.trang-cuoi1{
+    
+    float: left;
+    height: 300px;
+    width:  350px;
+    font-size: 20px;
+    color: white;
+}
+
+.trang-cuoi1>ul>li:hover{
+    color: #1acfb4;
+}
+.trang__cuoi2{
+    float: left;
+    height: 300px;
+    width:  350px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+    
+.trang__cuoi2>ul>li:hover{
+    color: #1acfb4;
+}
+.trang__cuoi3{
+    float: left;
+    height: 300px;
+    width:  350px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+.trang__cuoi3>ul>li:hover{
+    color: #1acfb4;
+}
+.anh11{
+    float: right;
+    margin-right: 60px;
+    margin-top: 60px;
 }
